@@ -22,11 +22,11 @@ spec:
         # purpose: dp-demo
         purpose: ingress-demo
         project: roboshop
-        app: app1
+        app: app2
     spec:
       containers:
       - name: app2
-        image: kishorelinux/app1:v1
+        image: kishorelinux/app2:v1
 ---
 apiVersion: v1
 kind: Service
